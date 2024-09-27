@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background: #EADDCA;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+.login-container {
+    width: 70%;
+    max-width: 500px;
+    padding: 40px;
+    background-color: #EADDCA;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.ema{
+    font-size: 20px;
+}
+.eme{
+    font-size: 20px;
+}
+
+h1.login-title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.welcome-message {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+input, button {
+    width: 100%;
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.forgot-password {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #90604C;
+    text-decoration: underline;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.frame1, .frame2 {
+    width: 90%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #90604C;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.frame3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #90604C;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
